@@ -9,3 +9,7 @@ articles/*.html
 # articles/*.md
 articles/*.xml
 articles/*.txt
+articles/sty/auto/
+
+.bundle/
+vendor/

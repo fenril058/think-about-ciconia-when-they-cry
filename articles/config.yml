@@ -22,10 +22,11 @@ bookname: ReVIEW-Template
 language: ja
 
 # 書名
-booktitle: {name: "Re:VIEWテンプレート", file-as: "reviewテンプレート"}
+booktitle: {name: "キコニアのなく頃に真相解明読本",
+file-as: "キコニアノナクコロニシンソウカイメイドクホン"}
 
 # 著者名。「, 」で区切って複数指定できる
-aut: [{name: "TechBooster編", file-as: "techboosterヘン"}]
+aut: [{name: "ril", file-as: "ril"}]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -47,7 +48,7 @@ aut: [{name: "TechBooster編", file-as: "techboosterヘン"}]
 # a-csl, csl: 監修者
 # a-dsr, dsr: デザイナ
 # a-edt, edt: 編集者
-edt: ["mhidaka"]
+edt: ["ril"]
 # a-ill, ill: イラストレータ
 # a-lyr, lyr: 歌詞作成者
 # a-mdc, mdc: メタデータセットの一次的責任者
@@ -77,7 +78,8 @@ date: 2022-12-31
 history: [["2022-12-31 コミックマーケット101版 v1.0.0"]]
 # 権利表記(配列で複数指定可)
 # rights: (C) 2016 Re:VIEW Developers
-rights: (C) 2017-2022 TechBooster
+# rights: (C) 2017-2022 TechBooster
+rights: (C) 2023 ril
 # description: 説明
 # subject: 短い説明用タグ(配列で複数指定可)
 # type: 書籍のカテゴリーなど(配列で複数指定可)
@@ -289,8 +291,8 @@ epubmaker:
   #
   # NCX目次の見出しレベルごとの飾り(配列で設定)。EPUB3ではNCXは作られない
   # ncxindent:
-  #- 
-  #- - 
+  #-
+  #- -
   # フックは、各段階で介入したいときのプログラムを指定する。自動で適切な引数が渡される
   # プログラムには実行権限が必要
   # ファイル変換処理の前に実行するプログラム。スタイルシートのコンパイルをしたいときなどに利用する。
