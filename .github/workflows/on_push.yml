@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
     # Build Artifacts
     - name: Build distribution file
-      uses: TechBooster/ReVIEW-build-artifact-action@master
+      uses: fenril058/ReVIEW-build-artifact-action@develop
     # Upload Distribution file
     - name: Upload distribution file to github artifacts
       uses: actions/upload-artifact@v3
